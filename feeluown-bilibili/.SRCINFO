@@ -1,0 +1,18 @@
+pkgbase = feeluown-bilibili
+	pkgdesc = Bilibili provider for FeelUOwn
+	pkgver = 0.1.5
+	pkgrel = 1
+	epoch = 1
+	url = https://github.com/BruceZhang1993/feeluown-bilibili
+	arch = any
+	license = GPL3
+	makedepends = python-setuptools
+	makedepends = python-pip
+	depends = feeluown
+	depends = python-cachetools
+	depends = python-beautifulsoup4
+	depends = python-pycryptodomex
+	source = https://pypi.io/packages/source/f/feeluown_bilibili/feeluown_bilibili-0.1.5.tar.gz
+	sha512sums = e32b7ad1f9fa59fd5e61ab0b3863188c9348980ca083aed69a72655cc5ed06713d80949750038fe6646ee682c87a131feadbd8b2fcf174a37d91fa9c8a0f669d
+
+pkgname = feeluown-bilibili
