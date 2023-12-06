@@ -6,10 +6,6 @@ newver = "new_ver.json"
 source = "pypi"
 pypi = "fuo-ytmusic"
 
-[feeluown-bilibili]
-source = "pypi"
-pypi = "feeluown_bilibili"
-
 [fastocr]
 source = "git"
 git = "https://github.com/BruceZhang1993/FastOCR.git"
