@@ -1,0 +1,15 @@
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+[feeluown-ytmusic]
+source = "pypi"
+pypi = "fuo-ytmusic"
+
+[feeluown-bilibili]
+source = "pypi"
+pypi = "feeluown_bilibili"
+
+[fastocr]
+source = "git"
+git = "https://github.com/BruceZhang1993/FastOCR.git"
