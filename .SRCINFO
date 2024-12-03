@@ -1,13 +1,14 @@
 pkgbase = feeluown-git
 	pkgdesc = FeelUOwn Music Player (Master branch)
-	pkgver = r1674.5cf00ccb
-	pkgrel = 1
+	pkgver = r1674.5cf00cc
+	pkgrel = 3
 	epoch = 2
 	url = https://github.com/feeluown/FeelUOwn
 	arch = any
 	license = GPL-3.0-or-later
 	makedepends = git
 	makedepends = python-setuptools
+	makedepends = python-pip
 	depends = python-qasync
 	depends = python-pyqt5
 	depends = mpv
