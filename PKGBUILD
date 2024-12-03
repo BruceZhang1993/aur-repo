@@ -1,7 +1,7 @@
 # Maintainer: Bruce Zhang <zttt183525594@gmail.com>
 _pkgname=feeluown
 pkgname=${_pkgname}-git
-pkgver=r1573.e7994ff5
+pkgver=r1674.5cf00ccb
 pkgrel=1
 epoch=2
 pkgdesc="FeelUOwn Music Player (Master branch)"
@@ -10,8 +10,10 @@ url="https://github.com/feeluown/FeelUOwn"
 license=('GPL-3.0-or-later')
 provides=('feeluown')
 conflicts=('feeluown')
-depends=('python-qasync' 'python-pyqt5' 'mpv' 'python-opengl' 'python-janus' 'python-requests')
-makedepends=('git' 'python-setuptools' 'python-pip')
+depends=('python-qasync' 'python-pyqt5' 'mpv' 'python-opengl' 'python-janus' 'python-requests'
+         'python-tomlkit' 'python-packaging' 'python-pydantic' 'python-mutagen' 'qt5-svg'
+         'xdg-user-dirs')
+makedepends=('git' 'python-setuptools')
 optdepends=(
 	'feeluown-local'
 	'feeluown-netease'
